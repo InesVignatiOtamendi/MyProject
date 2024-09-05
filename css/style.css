@@ -1,1 +1,17 @@
-h1{text-align: center;}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;400;700;900&display=swap'); 
+
+h4{font-family: "Mulish", sans-serif;color: #40534C}
+
+h1,h2, h3{font-family: "Mulish", sans-serif;}
+
+h1{ font-weight: 600; color: #1A3636}
+h2{ font-weight: 300;color: #40534C; text-decoration: underline}
+h3 {font-weight: 300;color: #40534C}
+
+body{background-color: #D6BD98;color: #5F6F65;font-family: "Roboto", sans-serif; text-align: justify; font-weight: 500;}
+
+#semi {font-weight: 600;}
+
+#semi2 {font-family: "Mulish",sans-serif; font-weight: 300;}
+
+#semi3 {font-family: "Mulish", sans-serif;font-weight: 300;}
