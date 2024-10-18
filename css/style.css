@@ -1,17 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:wght@100;400;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mulish:wght@200..1000&display=swap');
 
-h4{font-family: "Mulish", sans-serif;color: #40534C}
 
-h1,h2, h3{font-family: "Mulish", sans-serif;}
+* { margin:0; box-sizing: border-box;}
 
-h1{ font-weight: 600; color: #1A3636}
-h2{ font-weight: 300;color: #40534C; text-decoration: underline}
-h3 {font-weight: 300;color: #40534C}
+body {background-color: #b5d8d5; color: #1c6474; font-family: "Mulish", sans-serif;}
 
-body{background-color: #D6BD98;color: #5F6F65;font-family: "Roboto", sans-serif; text-align: justify; font-weight: 500;}
+main,header,[src="Images/Imagen06.jpg"]{margin: 0 auto;}
+main,header,footer { width: 83.33%;}
+main {padding: 10px;box-sizing: border-box;}
 
-#semi {font-weight: 600;}
+h1, h2, h3 {color: #fd6800; font-family: "Alfa Slab One", sans-serif; font-weight: 400; font-size: 2em;text-align: center;}
 
-#semi2 {font-family: "Mulish",sans-serif; font-weight: 300;}
+[src="Images/Imagen06.jpg"] {width: 40%; display: block; border: 3px solid #04b1b8; margin-bottom: 50px; }
+[src="Images/Imagen06.jpg"]:hover {border-radius: 1000px;}
 
-#semi3 {font-family: "Mulish", sans-serif;font-weight: 300;}
+p {font-size: 20px; line-height: 50px; text-align: justify;font-weight:800}
+
+div {width: 50%; margin-bottom: 50px;display: flex; justify-content: space-between;}
+
+div img{width: 40%;border: 3px solid #04b1b8;}
+
+div img:hover {border-radius: 1000px;}
+
+a{text-decoration: none; 
+    color: #ffcb5f; 
+    width: 300px;
+    height: 50px; 
+    display: block;
+    background-color: #edc14f; 
+    text-transform: uppercase;
+    text-align: center; 
+    border-radius: 20px; 
+    transition-property: background-color, width;
+    transition-duration: 5s, 10s;
+    transition: all 4s 1s linear;
+    font-size: 1.25em;}
+
+a:hover{background-color: #ffcb5f; color: #edc14f;text-decoration: underline; width: 500px; border-radius: 0px;}
+
+footer{width: 100%; color:#0a4959; background-color: #04b1b8;}
+
+@media (max-width: 768px) { div {width: 30%;}}
